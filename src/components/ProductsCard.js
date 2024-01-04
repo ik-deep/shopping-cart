@@ -36,13 +36,13 @@ const ProductsCard = (props) => {
                 {/* <strong className="rating">{rating}</strong> */}
                 <h4 className="title">{title}</h4>
                 <h3 className="price">₹ {price.toLocaleString()}</h3>
-                <footer> <button
+               <button
                     type="button"
                     className={`btn ${isAdded ? 'added' : ''}`}
                     onClick={handleAddToCart}
                 >
                     {isAdded ? 'Added' : 'Add to cart'}
-                </button></footer>
+                </button>
                
             </div>
         </>
