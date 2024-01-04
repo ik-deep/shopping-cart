@@ -6,7 +6,7 @@ const Footer = () => {
             <footer id="footer">
                 <div className="container">
                     <a
-                        href="https:// github.com/ik-deep/shopping-cart/"
+                        href="https://github.com/ik-deep/shopping-cart/"
                         className="repo_link"
                         target="_blank"
                         rel="noreferrer"
