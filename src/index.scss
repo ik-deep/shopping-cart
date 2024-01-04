@@ -160,6 +160,8 @@ svg {
     box-shadow: $card-shadow;
     padding-top: 1rem;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 
     img {
         width: 50%;
@@ -174,10 +176,12 @@ svg {
     .title {
         font-size: 1.1rem;
         margin: 0.6rem 0;
+        margin-top:auto;
     }
 
     .price {
         font-weight: bold;
+        margin-top:auto;
     }
 
     .btn {
@@ -188,7 +192,7 @@ svg {
         padding: 0.6rem 0;
         font-size: 1rem;
         transition: all 0.2s ease;
-        margin-top: auto;
+        margin-top:auto;
 
         &:hover,
         &.added {
